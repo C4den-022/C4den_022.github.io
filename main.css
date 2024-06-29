@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#list-red{
+  color:red;
+}
+
+#tablestyle{
+  text-align: center;
+  border-style: solid
+}
+
+
+header {
+  background-color: #000080;
+  color: #FFFAFF;
+  text-align: center;
+  font-size: 50px;
+  border: 4px solid #FFFAFF;
+}
+.navbar{
+  background-color: #FFFAFF;
+  border: solid #000080;
+  font-size: 20px;
+  position: sticky;
+  top: 0px;
+}
+.navbar th{
+  border:solid #000080;
+  padding: 5px
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:burlywood;
+  color:beige;
+  padding: 5px
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+  box-shadow: 5px 5px 10px black;
+}
+.active {
+  background-color: lightcoral;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+  color: navy;
+  text-decoration: none;
+}
+.NO:hover{
+  font-size:xx-large;
+  color:red;
+  font-family: 'Times New Roman', Times, serif
+}
